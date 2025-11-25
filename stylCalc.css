@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    background: linear-gradient(90deg, #030355, rgb(3, 107, 50), rgb(180, 124, 87));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+.Calculator {
+    display: flex;
+    background: #428C8B;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 10px 20px #000;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.buttoins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #9DE0AD;
+    padding: 2.5px;
+    margin-bottom: 0;
+    border-radius: 6px;
+}
+
+.btn {
+    width: 57px;
+    height: 57px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background: #073B3A;
+    margin: 4px;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.screen {
+    background: rgb(239, 243, 239);
+    height: 50px;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: #181616;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#equals {
+    width: 114px;
+}
+
+#changement {
+    font-weight: bold;
+    border: 1px solid black;  
+    border-radius: 50%;
+}
